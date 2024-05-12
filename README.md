@@ -65,6 +65,9 @@ Tasks
 - Crime rates generally show an increasing trend from 2018 to 2020, with some fluctuations in 2021.
 - 25% of states have crime rates below 153 (2018) to 250.5 (2020), while 75% have rates below 323.75 (2018) to 370 (2021).
 
+  ![image](https://github.com/TVsony/Crimes-in-India/assets/134869229/a78e049e-8152-4d64-b34c-2c1232dce553)
+
+
 **Correlation Analysis:**
 
 
