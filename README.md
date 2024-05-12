@@ -1,4 +1,16 @@
 # Crimes-in-India
+![image](https://github.com/TVsony/Crimes-in-India/assets/134869229/0969baae-5369-43e3-ade3-bcbcc982d0eb)
+
+##Impacts of Crime on Society and Economy## 
+Crime's repercussions on society and the economy are extensive and varied.
+Socially, criminal activities generate feelings of fear, mistrust, and insecurity among individuals, reducing overall quality of life. 
+Communities grappling with high crime rates often experience a breakdown in social bonds, heightened isolation, and a decrease in community involvement. 
+Furthermore, the impact of crime extends to victims and their families, causing enduring physical and psychological trauma.
+On an economic level, the prevalence of crime imposes a substantial burden. 
+It results in increased healthcare expenses, diminished productivity, and higher costs associated with law enforcement and the criminal justice system.
+Additionally, crime is a deterrent to investments, hindering economic growth and negatively impacting a country’s reputation.
+This, in turn, affects tourism and foreign direct investment. Therefore, addressing crime is imperative for cultivating a safer society and promoting a flourishing economy.
+
 Complete Project of Crimes in India  
 
 # Phase - 1 Data Collection tasks
@@ -9,6 +21,8 @@ Tasks
   b) Literacy Rate in each state.
   c) Area of each state
   d) Collect any other data that helps with your analysis. There is no limitation for anything.
+
+  
 
 # Phase - 2 Data Collections for the below analysis. 
 Note - 
