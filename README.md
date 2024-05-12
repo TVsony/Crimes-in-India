@@ -112,3 +112,19 @@ The analysis provides valuable insights into the complex dynamics of crime in In
 - 4) Regional Disparities: Regional disparities are evident in crime patterns, with urban centers experiencing different crime challenges compared to rural areas. Factors such as caste-based violence, dowry-related offenses, and cyber fraud are more prevalent in specific regions.
 
 - 5) Policy Implications: The findings underscore the importance of targeted policy interventions to address region-specific crime challenges. Strategies aimed at improving law enforcement capabilities, enhancing judicial processes, and addressing socio-economic disparities can contribute to effective crime control.
+ 
+  # Phase -3 SQL Oprations
+- Uploading the CSV file Data on the Database and performing various tasks as follows
+- Creating a suitable table with proper nomenclature
+- find the highest number of rapes & Kidnappings that happened in which state, District, and year.
+- Retrieving Data Max Rape, Max kidnapping crime against women year wise
+- find All the lowest number of rapes & Kidnappings that happened in which state, District, and year.
+- Insert records from 02_District_wise_crimes_committed_against_ST_2001_2012.csv into a new table
+- find the highest number of dacoity/robberies in which district.
+- find in which districts(All) the lowest number of murders happened
+- Insert records of STATE/UT, DISTRICT, YEAR, MURDER, ATTEMPT TO MURDER, and RAPE columns only from 01_District_wise_crimes_committed_IPC_2001_2012.csv into a new table.
+- find which District in each state/UT has the highest number of murders year-wise. Your output should show STATE/UT, YEAR, DISTRICT, and MURDERS.
+- Store the above data (the result of 3.2) in DataFrame and analyze districts that appear 3 or more than 3 years and print the corresponding state/UT, district, murders, and year in descending order.
+
+  
+  
