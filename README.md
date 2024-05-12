@@ -84,7 +84,7 @@ Tasks
 - The highest correlation is observed between Crime_rate_2018 and Crime_rate_2019 (0.992052), indicating high similarity between crime rates in these two consecutive years.
 
 **Analysis Points:**
-- 1) Analysis of Literacy Rate vs Total Crimes:
+- Analysis of Literacy Rate vs Total Crimes:
 - Minimum of State Literacy rate: 133
 - Maximum of State Literacy rate: 193
 - Mean of State Literacy rate: 161.7
@@ -92,7 +92,26 @@ Tasks
 - The scatter plot of Literacy rate vs Total Crime indicates no clear
 relationship between them.
 
-- 2) Analysis of the crime type vs each state vs Literacy rate:
+Category		Statistics	
+Overall Crime Statistics (2021)			
+Total Cognizable Crimes		57,23,950	
+Year-on-Year Change		-4.25%	
+IPC Crimes		34,60,380	
+Crime Rate		445.9	
+			
+Crime Against Women (2021)			
+Total Cases Registered		4,55,560	
+Year-on-Year Change		4%	
+Top Categories of Cases		Cruelty by Husband or Relatives	
+		Kidnapping & Abduction of Women	
+		Assault on Women with Intent of Outrage Her Modesty	
+Cyber Crime and Suides (2021)			
+Cyber Crime 		24.4% ( Majority cases Fruad)	
+Suicides		4.2 % (Family problem, Marriage related, Illness, job)	
+![image](https://github.com/TVsony/Crimes-in-India/assets/134869229/dc3a42dd-25ed-48bf-b8f6-860be36a3b7b)
+
+
+- Analysis of the crime type vs each state vs Literacy rate:
 - Highest literacy rate State in India: Kerala (193)
 - Lowest Literacy Rates State in India: Andhra Pradesh (133)
 - Top 3 states with the highest literacy rates: Kerala, Puducherry, Nagaland
