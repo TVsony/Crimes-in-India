@@ -67,6 +67,12 @@ Tasks
 
 **Correlation Analysis:**
 
+
+![image](https://github.com/TVsony/Crimes-in-India/assets/134869229/9cd6eaa3-85fd-4c38-8233-08566d990c21)
+
+
+
+
 **State Area:**
 - Strong positive correlation with Population of State (0.742140) and Total Crime (0.676439).
 - Moderate positive correlation with Crime rates across all years (0.260028 to 0.326981).
