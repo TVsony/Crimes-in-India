@@ -76,15 +76,28 @@ Tasks
 **State Area:**
 - Strong positive correlation with Population of State (0.742140) and Total Crime (0.676439).
 - Moderate positive correlation with Crime rates across all years (0.260028 to 0.326981).
+
+![image](https://github.com/TVsony/Crimes-in-India/assets/134869229/772c4694-1548-41ef-b9dc-3d97f8d6222f)
+
+
+
 **Population of State:**
 - Strong positive correlation with State Area (0.742140) and Total Crime (0.736955).
 - Moderate positive correlation with Crime rates across all years (0.249997 to 0.270910).
+
+![image](https://github.com/TVsony/Crimes-in-India/assets/134869229/7e6d0e21-8b02-4190-8eea-09058f7ec0b8)
+
+
 **State Literacy Rate:**
 - Weak negative correlation with State Area (-0.453602).
 - Weak positive correlation with Crime rates across all years (0.204104 to 0.269901).
 **Total Crime:**
 - Strong positive correlation with State Area (0.676439) and Population of State (0.736955).
 - Strong positive correlation with Crime rates across all years (0.622043 to 0.735749).
+
+![image](https://github.com/TVsony/Crimes-in-India/assets/134869229/e874e4d1-92b9-437e-b132-2cd73aa399c8)
+
+
 **Crime Rates (2018, 2019, 2020, 2021):**
 - Moderate to strong positive correlations among each other, indicating consistency in crime rates over the years.
 - The highest correlation is observed between Crime_rate_2018 and Crime_rate_2019 (0.992052), indicating high similarity between crime rates in these two consecutive years.
@@ -114,6 +127,7 @@ Top Categories of Cases		Cruelty by Husband or Relatives
 Cyber Crime and Suides (2021)			
 Cyber Crime 		24.4% ( Majority cases Fruad)	
 Suicides		4.2 % (Family problem, Marriage related, Illness, job)	
+
 ![image](https://github.com/TVsony/Crimes-in-India/assets/134869229/dc3a42dd-25ed-48bf-b8f6-860be36a3b7b)
 
 
