@@ -1,7 +1,7 @@
 # Crimes-in-India
 ![image](https://github.com/TVsony/Crimes-in-India/assets/134869229/0969baae-5369-43e3-ade3-bcbcc982d0eb)
 
-##Impacts of Crime on Society and Economy## 
+#Impacts of Crime on Society and Economy
 Crime's repercussions on society and the economy are extensive and varied.
 Socially, criminal activities generate feelings of fear, mistrust, and insecurity among individuals, reducing overall quality of life. 
 Communities grappling with high crime rates often experience a breakdown in social bonds, heightened isolation, and a decrease in community involvement. 
@@ -151,7 +151,7 @@ The analysis provides valuable insights into the complex dynamics of crime in In
 
 - 3) Temporal Trends: Crime rates fluctuate over time, with noticeable variations across different years. However, some crime rates exhibit consistency over consecutive years, indicating persistent challenges in certain crime domains.
 
-- 4) Regional Disparities: Regional disparities are evident in crime patterns, with urban centers experiencing different crime challenges compared to rural areas. Factors such as caste-based violence, dowry-related offenses, and cyber fraud are more prevalent in specific regions.
+- 4) Regional Disparities: Regional disparities are evident in crime patterns, with urban centres experiencing different crime challenges compared to rural areas. Factors such as caste-based violence, dowry-related offenses, and cyber fraud are more prevalent in specific regions.
 
 - 5) Policy Implications: The findings underscore the importance of targeted policy interventions to address region-specific crime challenges. Strategies aimed at improving law enforcement capabilities, enhancing judicial processes, and addressing socio-economic disparities can contribute to effective crime control.
  
@@ -167,6 +167,66 @@ The analysis provides valuable insights into the complex dynamics of crime in In
 - Insert records of STATE/UT, DISTRICT, YEAR, MURDER, ATTEMPT TO MURDER, and RAPE columns only from 01_District_wise_crimes_committed_IPC_2001_2012.csv into a new table.
 - find which District in each state/UT has the highest number of murders year-wise. Your output should show STATE/UT, YEAR, DISTRICT, and MURDERS.
 - Store the above data (the result of 3.2) in DataFrame and analyze districts that appear 3 or more than 3 years and print the corresponding state/UT, district, murders, and year in descending order.
+
+# Phase 4 Unsupervised ML 
+
+![image](https://github.com/TVsony/Crimes-in-India/assets/134869229/52dd54d7-6b40-42f2-a462-ee869f48c452)
+
+
+- Create 3 clusters as below.
+1. Sensitive Areas
+2. Moderate Area's
+3. Peaceful Area's"
+
+![image](https://github.com/TVsony/Crimes-in-India/assets/134869229/d4cdfcee-b35e-405b-a890-42d2e47ce27d)
+
+   
+- Create a data frame for each cluster that shows data according to the areas.
+- Analyze your clusters and prepare a report that explains all your observations.
+
+  ![image](https://github.com/TVsony/Crimes-in-India/assets/134869229/6d7640b4-4c49-45f9-81b2-1584f2a2a5b5)
+
+# Report
+### Cluster: Sensitive Area's
+- Total Crime: The average total crime in sensitive areas is approximately 471,554, with a standard deviation of 400,831. This indicates that sensitive areas have a moderate to high level of crime.
+- State_encoded:
+ The average state encoding for sensitive areas is around 27.76, with a standard deviation of 4.12. This suggests that sensitive areas are distributed across different states.
+- Districts_encoded: The average district encoding for sensitive areas is about 399.11, with a standard deviation of 217.82. This indicates that sensitive areas are spread across various districts.
+### Cluster: Moderate Area's
+- Total Crime: The average total crime in moderate areas is approximately 410,224, with a standard deviation of 286,644. Moderate areas tend to have a lower total crime compared to sensitive areas.
+- State_encoded: The average state encoding for moderate areas is around 7.39, with a standard deviation of 5.07. This suggests that moderate areas are primarily concentrated in fewer states compared to sensitive areas.
+- Districts_encoded: The average district encoding for moderate areas is about 386.93, with a standard deviation of 225.31. This indicates a moderate spread of moderate areas across districts.
+### Cluster: Peaceful Area's
+- Total Crime: The average total crime in peaceful areas is significantly higher, approximately 2,266,743, compared to sensitive and moderate areas. This suggests that peaceful areas have the lowest crime rate among the three clusters.
+- State_encoded: The average state encoding for peaceful areas is around 23.64, with a standard deviation of 8.18. This indicates that peaceful areas are distributed across different states but tend to be more concentrated in certain states.
+- Districts_encoded: The average district encoding for peaceful areas is about 382.59, with a standard deviation of 235.47. This suggests that peaceful areas are spread across various districts similar to sensitive areas.
+## Observations and Recommendations:
+- Crime Rates: Sensitive areas have moderate to high crime rates, while peaceful areas have significantly lower crime rates. Understanding the factors contributing to crime discrepancies among these areas is crucial for targeted interventions.
+- Geographical Distribution: Sensitive areas are spread across different states and districts, indicating a widespread issue. Moderate and peaceful areas also show variability in their distribution but to a lesser extent.
+- Policy Implications: Policies and interventions should be tailored based on the specific characteristics of each cluster. Sensitive areas might require targeted law enforcement efforts, socio-economic development programs, and community engagement initiatives to 
+  address underlying issues contributing to crime. Moderate areas might benefit from crime prevention strategies and community policing programs. Peaceful areas could focus on maintaining current safety levels and addressing potential emerging threats.
+
+
+
+# Project overall story
+ Crime Patterns in India
+ ### Introduction:
+Crime is a complex term that affects societies worldwide, and India is no exception. As a diverse and populous country, India grapples with various forms of criminal activities, ranging from petty theft to more serious offenses like murder and organized crime. Understanding the dynamics of crime is crucial for policymakers, law enforcement agencies, and society as a whole to formulate effective strategies for prevention and intervention. In this capstone project, we embark on a journey to explore and analyze crime patterns in India, delving into factors such as **Literacy Rate in each state, The population of each state, Area of each state and  other data that helps analysis **, and trends of criminal activities.
+
+**Phase 1: Data Collection and Preparation:**
+Our journey begins with the collection and preparation of relevant data. We gather information on the population, literacy rates, and area of each state of India from authoritative sources such as the Census of India and reputable websites and wikipedia. This data serves as the foundation for our subsequent analysis, providing context and insight into the socio-economic landscape of different regions across the country.
+
+**Phase 2: State/UT Wise Analysis:**
+In this phase, we comprehensively analyse crime trends at the state and union territory level. We explore the relationship between literacy rates and total crimes, examining whether regions with higher literacy rates exhibit lower crime rates. Additionally, we delve into the types of crimes prevalent in each state and their correlation with literacy levels, population density, and geographical factors. We also analyze year-on-year variations in total crime rates, seeking to identify patterns and trends that may inform future policy decisions. Furthermore, we investigate the impact of area and population on overall crime rates, uncovering potential insights into the spatial distribution of criminal activities across India. Finally, we present detailed crime reports for each state, highlighting key findings and trends observed in our analysis.
+
+**Phase 3: SQL Operations:**
+ This phase, we leverage SQL queries to perform in-depth analysis on specific aspects of crime data. We create separate tables for crime datasets and execute queries to identify significant trends and patterns. For instance, we identify states, districts, and years with the highest and lowest occurrences of specific crimes, such as rapes and kidnappings. We also examine the distribution of other major crimes, such as dacoity/robbery and murder, across different districts and states. Additionally, we extract valuable insights, such as the districts with consistently high murder rates over multiple years, using SQL queries and data manipulation techniques.
+
+ **Phase 4: Unsupervised ML (Clustering):**
+In the final phase of our analysis, we apply unsupervised machine learning techniques to identify clusters of districts based on their crime profiles. By merging relevant datasets and selecting appropriate features, we create three distinct clusters: Sensitive Areas, Moderate Areas, and Peaceful Areas. We then analyze each cluster to identify factors contributing to crime prevalence and propose actionable recommendations for crime prevention and intervention. Our analysis sheds light on the underlying socio-economic and demographic factors driving crime patterns in different regions of India, providing valuable insights for policymakers and law enforcement agencies.
+
+## Conclusion:
+In conclusion, our capstone project offers a comprehensive analysis of crime patterns in India, leveraging a multi-faceted approach that combines data collection, statistical analysis, SQL operations, and machine learning techniques. By examining the relationship between various socioeconomic factors and crime rates, we uncover valuable insights that can inform evidence-based policy decisions and interventions to reduce crime and enhance public safety. Our findings underscore the importance of holistic approaches to crime prevention, addressing underlying social inequalities and fostering community engagement to create safer and more resilient communities across India.
 
   
   
